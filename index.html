@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ngày của mẹ</title>
+    <link rel="stylesheet" href="/css/canvas.css" />
+    <link rel="stylesheet" href="/css/gift.css" />
+    <link rel="stylesheet" href="fonts/UTM Wedding K_T.ttf" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <audio id="audioID" autoplay loop preload="auto">
+      <source src="XinhtuoiVN.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+      var audio = document.getElementById("audioID");
+      audio.autoplay = true;
+    </script>
+    ;
+
+    <canvas id="canvas"></canvas>
+    <canvas id="present_can"></canvas>
+    <div class="headline">VietNamese Women's Day</div>
+
+    <div class="instructions">Chúc mẹ yêu ngày 20/10 dzuii dzẻ</div>
+
+    <div class="present">
+      <img class="gift" src="Me.jpg" alt="the gift" />
+
+      <div class="wiggle-container">
+        <div class="rotate-container">
+          <div class="bottom"></div>
+          <div class="front"></div>
+          <div class="left"></div>
+          <div class="back"></div>
+          <div class="right"></div>
+
+          <div class="lid">
+            <div class="lid-top"></div>
+            <div class="lid-front"></div>
+            <div class="lid-left"></div>
+            <div class="lid-back"></div>
+            <div class="lid-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="card-div"
+      style="
+        position: relative;
+        height: 896px;
+        width: inherit;
+        z-index: -1;
+        display: flex;
+      "
+    >
+      <div id="card">
+        <h4>💘little son</h4>
+
+        <img src="PP.jpg" class="honey" />
+
+        <h4>
+          Mẹ! Cám ơn mẹ rất nhiều vì đã sinh và nuôi dưỡng chúng con khôn lớn.
+          Con không biết nói gì hơn ngoài lời cảm ơn đến tình yêu của mẹ dành
+          cho chúng con trong ngày đặc biệt này. Nhân ngày 20/10, con chỉ mong
+          muốn một điều là “Con mong mẹ luôn vui vẻ bên anh em con và trong suốt
+          cuộc đời này, con rất muốn nói với mẹ rằng con rất yêu mẹ.💘
+        </h4>
+      </div>
+    </div>
+  </body>
+  <script src="/JS/canvas.js"></script>
+  <script src="/JS/present.js"></script>
+</html>
